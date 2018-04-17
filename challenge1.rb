@@ -7,8 +7,7 @@ def ascending_sort(array)
 end
 
 def sort_and_increment(array)
-  array = ascending_sort(array)
-  increment_by_one(array)
+  increment_by_one(ascending_sort(array))
 end
 
 def sum_array(array)
