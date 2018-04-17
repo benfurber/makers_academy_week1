@@ -14,10 +14,10 @@ describe 'Arrays transformer method' do
   end
 
   it 'Sums the total of all array elements' do
-    expect(sum_array([1, 2, 3, 4, 5])).to eq "15 (the sum)"
+    expect(sum_array([1, 2, 3, 4, 5])).to eq 15
   end
 
   it 'Generates the sum multiplied by two' do
-    expect(double_sum([1, 2, 3, 4, 5])).to eq "30 (twice the sum)"
+    expect(double_sum([1, 2, 3, 4, 5])).to eq 30
   end
 end

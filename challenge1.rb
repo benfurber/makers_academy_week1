@@ -11,9 +11,9 @@ def sort_and_increment(array)
 end
 
 def sum_array(array)
-  "#{array.sum} (the sum)"
+  array.sum
 end
 
 def double_sum(array)
-  "#{array.sum * 2} (twice the sum)"
+  array.sum * 2
 end
